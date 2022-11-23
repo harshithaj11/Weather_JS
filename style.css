@@ -72,3 +72,60 @@ body{
     
 }
 
+@media screen and (max-width:1200px ) {
+    body{
+        min-height: 95vh;
+        overflow: hidden;
+        width: 100%;
+        font-size: 30px;
+    }
+    .city{
+        height: 45%;
+        width:150px;
+        padding-left: 7px;
+        margin: auto;
+        display: block;
+        margin-top: 10%;
+        border-radius: 2px;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        background-color:#CAD5E2;
+        border-style: solid transparent;
+     
+       
+        
+    }
+    .submit{
+        height: 30px;
+        width: 60px;
+        text-align: center;
+        margin-left:45%;
+        margin-top: 10px;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        border-style: none;
+        border-radius: 10px;
+        background-color: #120E43;
+        color: #CAD5E2;
+        margin-bottom: 20px;
+    }
+    .display{
+        height:40%;
+        width: 40%;
+        font-size: 10px;
+        line-height: 35px;
+        margin: auto;
+        display: block;
+    }
+    .iner{
+        height:40px;
+        width: 200px;
+        font-size: 10px;
+    }
+    .error{
+        font-size: 10px;
+        margin-left: 10%;
+    }
+    
+}
